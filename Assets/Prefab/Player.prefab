@@ -1371,8 +1371,7 @@ MonoBehaviour:
   coinAnimationEase: 6
   useCountUpEffect: 1
   coinAudioSource: {fileID: 6460738071280451303}
-  coinGetSE: {fileID: 8300000, guid: 51cdca9f2355d3144a25f46e65d87b2e, type: 3}
-  coinCountSE: {fileID: 8300000, guid: 8c7bfed28648a7d4cbeacb656a17f81e, type: 3}
+  coinGetSE: {fileID: 8300000, guid: 3bd1208ec95c1244e8ece50f1a6523dd, type: 3}
   playCountUpSound: 1
   countSoundInterval: 0.1
   countSoundPitchMin: 0.8
@@ -1820,7 +1819,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 564ef2b3df4fbec4eaa6d3ba7a24b66d, type: 3}
+  m_Resource: {fileID: 8300000, guid: d650afd5a2d31094799dfa6580913278, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

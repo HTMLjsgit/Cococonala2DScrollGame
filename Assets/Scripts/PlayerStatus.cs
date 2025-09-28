@@ -44,7 +44,6 @@ public class PlayerStatus : MonoBehaviour
     [Header("コイン音響設定")]
     [SerializeField] private AudioSource coinAudioSource;
     [SerializeField] private AudioClip coinGetSE;
-    [SerializeField] private AudioClip coinCountSE;
     [SerializeField] private bool playCountUpSound = true;
     [SerializeField] private float countSoundInterval = 0.05f;
     [SerializeField] private float countSoundPitchMin = 0.8f;
@@ -124,7 +123,7 @@ public class PlayerStatus : MonoBehaviour
     {
         HP = Mathf.Clamp(HP + IncreaseHP, 0, MaxHP);
     }
-    
+
     // コイン関連の関数は変更なし
     #region Coin Functions
     public void CoinSet(int IncreaseCoin)
@@ -132,13 +131,10 @@ public class PlayerStatus : MonoBehaviour
         HaveCoins += IncreaseCoin;
         if (IncreaseCoin > 0)
         {
-            AnimateCoinIncrease();
+            PlayCoinGetSound();
         }
-        else
-        {
-            displayedCoins = HaveCoins;
-            UpdateCoinDisplay();
-        }
+        displayedCoins = HaveCoins;
+        UpdateCoinDisplay();
     }
 
     public void CoinSetSilent(int IncreaseCoin)
@@ -154,37 +150,7 @@ public class PlayerStatus : MonoBehaviour
         UpdateCoinDisplay();
     }
 
-    private void AnimateCoinIncrease()
-    {
-        DOTween.Kill("CoinCountTween");
-        PlayCoinGetSound();
-        if (useCountUpEffect)
-        {
-            float lastSoundTime = 0f;
-            DOTween.To(() => displayedCoins, x =>
-            {
-                displayedCoins = x;
-                UpdateCoinDisplay();
-                if (playCountUpSound && Time.time - lastSoundTime >= countSoundInterval)
-                {
-                    PlayCoinCountSound();
-                    lastSoundTime = Time.time;
-                }
-            }, HaveCoins, coinAnimationDuration)
-            .SetEase(coinAnimationEase)
-            .SetId("CoinCountTween")
-            .OnComplete(() =>
-            {
-                displayedCoins = HaveCoins;
-                UpdateCoinDisplay();
-            });
-        }
-        else
-        {
-            displayedCoins = HaveCoins;
-            UpdateCoinDisplay();
-        }
-    }
+
 
     private void AnimateCoinIncreaseWithoutSound()
     {
@@ -219,38 +185,6 @@ public class PlayerStatus : MonoBehaviour
         }
     }
 
-    public void CoinSetWithBounce(int IncreaseCoin)
-    {
-        HaveCoins += IncreaseCoin;
-        DOTween.Kill("CoinCountTween");
-        DOTween.Kill("CoinBounce");
-        PlayCoinGetSound();
-        float lastSoundTime = 0f;
-        DOTween.To(() => displayedCoins, x =>
-        {
-            displayedCoins = x;
-            UpdateCoinDisplay();
-            if (playCountUpSound && Time.time - lastSoundTime >= countSoundInterval)
-            {
-                PlayCoinCountSound();
-                lastSoundTime = Time.time;
-            }
-        }, HaveCoins, coinAnimationDuration)
-        .SetEase(coinAnimationEase)
-        .SetId("CoinCountTween");
-        if (HaveCoinsTextUI != null)
-        {
-            HaveCoinsTextUI.transform.DOScale(1.2f, 0.1f)
-            .SetEase(Ease.OutQuad)
-            .SetId("CoinBounce")
-            .OnComplete(() =>
-            {
-                HaveCoinsTextUI.transform.DOScale(1f, 0.1f)
-                .SetEase(Ease.InQuad)
-                .SetId("CoinBounce");
-            });
-        }
-    }
 
     private void PlayCoinGetSound()
     {
@@ -261,14 +195,7 @@ public class PlayerStatus : MonoBehaviour
         }
     }
 
-    private void PlayCoinCountSound()
-    {
-        if (coinAudioSource != null && coinCountSE != null)
-        {
-            coinAudioSource.pitch = Random.Range(countSoundPitchMin, countSoundPitchMax);
-            coinAudioSource.PlayOneShot(coinCountSE, 0.5f);
-        }
-    }
+
     #endregion
     
     public void Attacked(float _attacked)
