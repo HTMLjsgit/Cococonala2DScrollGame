@@ -21,9 +21,6 @@ public class StageController : MonoBehaviour
     private TextMeshProUGUI StageCountTextUI;
     [SerializeField]
     private Button BackToStageSelectorButtonUI;
-    [SerializeField]
-    private TextMeshProUGUI KillEnemiesCountTextUI;
-    private GameControllerScript gameControllerScript;
     private PlayerStatus playerStatus;
     private PlayerMoveScript playerMoveScript;
     [SerializeField]
@@ -33,7 +30,6 @@ public class StageController : MonoBehaviour
     {
         playerStatus = GameObject.FindWithTag("Player").GetComponent<PlayerStatus>();
         playerMoveScript = playerStatus.gameObject.GetComponent<PlayerMoveScript>();
-        gameControllerScript = GameObject.FindWithTag("GameController").GetComponent<GameControllerScript>();
         BackToStageSelectorButtonUI.onClick.AddListener(() =>
         {
             //ゴールした後次のステージに進むボタンをクリックしたら　次のステージに進む
@@ -68,10 +64,8 @@ public class StageController : MonoBehaviour
     {
         GoalCanvasObject.gameObject.SetActive(true);
         goalHaveCoinTextUI.SetText($"{playerStatus.HaveCoins}");
-        StageCountTextUI.SetText($"{gameControllerScript.StageCountHistory[0]}");
         playerMoveScript.PermitMove = false;
         GoalAudioSource.Play();
-        KillEnemiesCountTextUI.SetText(playerStatus.KillEnemyCount.ToString());
         Time.timeScale = 0;
     }
 }
