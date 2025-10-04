@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7254bd8c6e2daa044a60032d3af6f0c7, type: 3}
+  m_Name: PrefabParentSettings
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::PrefabParentSettings
+  prefabMappings:
+  - parentName: Enemies
+    prefabs:
+    - {fileID: 519670996709810108, guid: 8f29d0cfb7778a441afdc8f25c2b539f, type: 3}
+    - {fileID: 3315856025520020444, guid: 3c8691f2b251a86499a48b6cf6c1bf24, type: 3}
+  - parentName: HimawariSeedsObjects
+    prefabs:
+    - {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+  - parentName: Turns
+    prefabs:
+    - {fileID: 8793735049006839090, guid: d4754418439468148af47528f8222685, type: 3}
+  - parentName: MoveFloors
+    prefabs:
+    - {fileID: 7875612040804242232, guid: 6dd2126ff6cac0a43aba4a76499bb93a, type: 3}

@@ -2,109 +2,135 @@ using UnityEngine;
 
 public class MoveFloor : MonoBehaviour
 {
-    // 移動タイプをインスペクターで選べるようにする
     public enum MovementType
     {
-        Horizontal, // 横移動
-        Vertical,   // 縦移動
-        Circular    // 円運動
+        Horizontal,
+        Vertical,
+        Circular,
+        OrbitalPatrol
     }
 
     [Header("移動タイプ選択")]
-    [SerializeField] private MovementType movementType = MovementType.Horizontal;
+    [SerializeField] public MovementType movementType = MovementType.Horizontal;
 
     [Header("共通設定")]
-    [SerializeField] private float speed = 2.0f;
+    [Tooltip("移動速度（中心の移動や円運動の速さ）")]
+    [SerializeField] public float speed = 2.0f;
 
-    [Header("横・縦移動の設定")]
-    [Tooltip("横移動の現在の向き (1が右, -1が左)")]
-    [SerializeField] private int directionX = 1;
-    [Tooltip("縦移動の現在の向き (1が上, -1が下)")]
-    [SerializeField] private int directionY = 1;
+    // --- 各移動タイプごとの設定 ---
 
-    [Header("円運動の設定")]
-    [Tooltip("回転の中心となるオブジェクト")]
-    [SerializeField] private Transform centerPoint;
-    [SerializeField] private float radius = 3.0f;
+    [Header("横・縦移動")]
+    [SerializeField] public int directionX = 1;
+    [SerializeField] public int directionY = 1;
 
-    // 円運動で使う角度の変数
+    [Header("その場での円運動")]
+    [SerializeField] public Transform centerPoint;
+
+    [Header("円運動・往復円運動")]
+    [Tooltip("円運動の半径")]
+    [SerializeField] public float radius = 2.0f;
+    [Tooltip("往復円運動時の、円運動（公転）の速度")]
+    [SerializeField] public float orbitalSpeed = 3.0f;
+
+    [Header("往復移動")]
+    [Tooltip("往復移動の始点")]
+    [SerializeField] public Transform pointA;
+    [Tooltip("往復移動の終点")]
+    [SerializeField] public Transform pointB;
+
+    // --- 内部計算用 ---
     private float angle = 0f;
+    private Transform currentTarget;
+    private Vector2 currentCenterPosition;
+
+    void Start()
+    {
+        if (movementType == MovementType.OrbitalPatrol)
+        {
+            if (pointA != null && pointB != null)
+            {
+                currentCenterPosition = pointA.position;
+                currentTarget = pointB;
+            }
+            else
+            {
+                Debug.LogError("OrbitalPatrolにはPointAとPointBの設定が必要です！", this.gameObject);
+                enabled = false;
+            }
+        }
+    }
 
     void Update()
     {
-        // 選択された移動タイプに応じて、処理を切り替える
         switch (movementType)
         {
             case MovementType.Horizontal:
                 MoveHorizontally();
                 break;
-
             case MovementType.Vertical:
                 MoveVertically();
                 break;
-
             case MovementType.Circular:
                 MoveCircularly();
+                break;
+            case MovementType.OrbitalPatrol:
+                MoveOrbitalPatrol();
                 break;
         }
     }
 
-    // 横移動の処理
     private void MoveHorizontally()
     {
         transform.Translate(Vector2.right * directionX * speed * Time.deltaTime);
     }
 
-    // 縦移動の処理
     private void MoveVertically()
     {
         transform.Translate(Vector2.up * directionY * speed * Time.deltaTime);
     }
 
-    // 円運動の処理
+    // ★★★ 修正点 ★★★
+    // orbitalSpeedではなく、共通のspeedを使うように変更
     private void MoveCircularly()
     {
-        if (centerPoint == null) return; // 中心が設定されていなければ何もしない
-
-        angle += speed * Time.deltaTime;
+        if (centerPoint == null) return;
+        angle += speed * Time.deltaTime; // 修正箇所
         float x = centerPoint.position.x + Mathf.Cos(angle) * radius;
         float y = centerPoint.position.y + Mathf.Sin(angle) * radius;
         transform.position = new Vector2(x, y);
     }
 
-    // 反転ポイントに接触した時の処理
+    private void MoveOrbitalPatrol()
+    {
+        currentCenterPosition = Vector2.MoveTowards(currentCenterPosition, currentTarget.position, speed * Time.deltaTime);
+
+        if (Vector2.Distance(currentCenterPosition, currentTarget.position) < 0.01f)
+        {
+            currentTarget = (currentTarget == pointA) ? pointB : pointA;
+        }
+        
+        angle += orbitalSpeed * Time.deltaTime;
+        float x = currentCenterPosition.x + Mathf.Cos(angle) * radius;
+        float y = currentCenterPosition.y + Mathf.Sin(angle) * radius;
+        
+        transform.position = new Vector2(x, y);
+    }
+
+    // (衝突判定とGizmo表示のコードは変更なしのため省略)
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // "Turn"タグのオブジェクトに当たったら
         if (collision.gameObject.CompareTag("Turn"))
         {
-            // 移動タイプに応じて、向きを反転させる
-            if (movementType == MovementType.Horizontal)
-            {
-                directionX *= -1;
-            }
-            else if (movementType == MovementType.Vertical)
-            {
-                directionY *= -1;
-            }
+            if (movementType == MovementType.Horizontal) directionX *= -1;
+            else if (movementType == MovementType.Vertical) directionY *= -1;
         }
     }
 
-    // プレイヤーが床に乗った/降りた時の処理 (変更なし)
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && collision.contacts[0].normal.y < -0.5f)
         {
-            // 衝突情報の中から、最初の接点の法線ベクトルを取得
-            Vector2 normal = collision.contacts[0].normal;
-
-            // 法線ベクトルのY成分が-0.5より小さい場合（＝ほぼ真上を向いている場合）
-            // つまり、プレイヤーが床の上に乗ったと判断
-            if (normal.y < -0.5f)
-            {
-                // プレイヤーを床の子供にして、一緒に動くようにする
-                collision.transform.SetParent(this.transform);
-            }
+            collision.transform.SetParent(this.transform);
         }
     }
 
@@ -116,19 +142,26 @@ public class MoveFloor : MonoBehaviour
         }
     }
 
-    // Gizmoの表示処理
     private void OnDrawGizmos()
     {
-        // 円運動の時だけGizmoを表示する
-        if (movementType == MovementType.Circular)
+        if (movementType == MovementType.Circular && centerPoint != null)
         {
-            if (centerPoint != null)
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawWireSphere(centerPoint.position, radius);
+        }
+        else if (movementType == MovementType.OrbitalPatrol && pointA != null && pointB != null)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawLine(pointA.position, pointB.position);
+            Gizmos.DrawWireSphere(pointA.position, 0.2f);
+            Gizmos.DrawWireSphere(pointB.position, 0.2f);
+
+            if (Application.isPlaying)
             {
+                Gizmos.color = Color.red;
+                Gizmos.DrawWireSphere(currentCenterPosition, 0.3f);
                 Gizmos.color = Color.cyan;
-                // 中心点
-                Gizmos.DrawWireSphere(centerPoint.position, 0.2f);
-                // 回転軌道
-                Gizmos.DrawWireSphere(centerPoint.position, radius);
+                Gizmos.DrawWireSphere(currentCenterPosition, radius);
             }
         }
     }
