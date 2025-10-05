@@ -878,7 +878,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3051651230270771983, guid: 5359a31e6252c704dabcbc50010776cf, type: 3}
       propertyPath: stageClearHistory.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3051651230270771983, guid: 5359a31e6252c704dabcbc50010776cf, type: 3}
       propertyPath: stageClearHistory.Array.data[0].isCleared

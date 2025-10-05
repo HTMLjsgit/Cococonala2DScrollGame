@@ -60,7 +60,6 @@ GameObject:
   - component: {fileID: 519670996709810109}
   - component: {fileID: 519670996709810107}
   - component: {fileID: 3914667584994998801}
-  - component: {fileID: 5051402382739370237}
   - component: {fileID: 4882775355758489027}
   - component: {fileID: 3479709681898274016}
   - component: {fileID: 2805624996726122836}
@@ -171,7 +170,7 @@ MonoBehaviour:
   DeathEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5051402382739370237}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
@@ -253,20 +252,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &5051402382739370237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519670996709810108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5b46b12dbed69d4694974afd3aafacc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EnemyToPlayer: 0
-  EnemyToPlayerDirection: 0
 --- !u!114 &4882775355758489027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,11 +267,11 @@ MonoBehaviour:
   TargetTurningPointTag:
   - Turn
   speed: 3
-  DirectionX: 1
+  Direction: 1
+  rigid: {fileID: 0}
   moveVector: 0
   Move: 1
   PermitMove: 1
-  LookAtPlayer: 0
 --- !u!114 &3479709681898274016
 MonoBehaviour:
   m_ObjectHideFlags: 0
