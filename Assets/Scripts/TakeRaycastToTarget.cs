@@ -10,13 +10,6 @@ public class TakeRaycastToTarget : MonoBehaviour
     public GameObject TargetObject;
     RaycastHit2D physics;
     public LayerMask GroundLayerMask;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         physics = Physics2D.Linecast(this.transform.position, TargetObject.transform.position, GroundLayerMask);

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7254bd8c6e2daa044a60032d3af6f0c7, type: 3}
   m_Name: PrefabParentSettings
   m_EditorClassIdentifier: Assembly-CSharp-Editor::PrefabParentSettings
+  isGloballyEnabled: 0
   prefabMappings:
   - parentName: Enemies
     prefabs:

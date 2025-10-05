@@ -5,23 +5,21 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 public class SelectorManager : MonoBehaviour
 {
-    public List<GameObject> SelectObjectsHistory;
-    public GameObject lastSelectedObject;
-    public GameObject DefaultSelectObject;
-    Button select_button;
-    Selectable select_selectable;
+    //ボタン選択管理
+    [SerializeField] private List<GameObject> SelectObjectsHistory;
+    [SerializeField] private GameObject lastSelectedObject;
+    [SerializeField] private GameObject DefaultSelectObject;
+    private Button select_button;
+    private Selectable select_selectable;
 
-
-    void Awake()
-    {
-    }
     // Start is called before the first frame update
     void Start()
     {
+        //デフォルトで選んでおきたいbuttonがあれば選択
         if (DefaultSelectObject != null)
         {
             DefaultSelectObject.GetComponent<Selectable>().Select();
-            
+
         }
     }
     // Update is called once per frame

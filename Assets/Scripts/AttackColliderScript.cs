@@ -25,11 +25,6 @@ public class AttackColliderScript : MonoBehaviour
         playerMoveScript = Player.GetComponent<PlayerMoveScript>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (mine_status == MineStatus.Enemy)
@@ -50,14 +45,7 @@ public class AttackColliderScript : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D other)
     {
-        if(mine_status == MineStatus.Player){
-            //自分がPlayerならばEnemyに当たったとき
-            // if(other.gameObject.tag == "Enemy"){
-            //     EnemyStatus enemy_status = other.gameObject.GetComponent<EnemyStatus>();
-            //     enemy_status.Attacked(AttackPower);
-            //     HittingEvent.Invoke();
-            // }
-        }else if(mine_status == MineStatus.Enemy){
+        if(mine_status == MineStatus.Enemy){
             //自分がEnemyならばPlayerに当たったとき
             if(other.gameObject.tag == "Player"){
                 StayTimeNow += Time.deltaTime;

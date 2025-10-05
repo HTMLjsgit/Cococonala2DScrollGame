@@ -31,7 +31,6 @@ public class PlayerStatus : MonoBehaviour
     [Header("イベント系")]
     public UnityEvent AttackedEvent;
     Animator anim;
-    private PlayerController player_controller;
     private PlayerMoveScript playerMoveScript;
     public Slider HPSlider;
     [SerializeField] private float displayedCoins;
@@ -52,7 +51,6 @@ public class PlayerStatus : MonoBehaviour
     void Start()
     {
         anim = this.gameObject.GetComponent<Animator>();
-        player_controller = this.gameObject.GetComponent<PlayerController>();
         spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>(); // SpriteRendererを取得
         playerMoveScript = this.gameObject.GetComponent<PlayerMoveScript>();
         foreach (AttackColliderScript attack_col_script in AttackColliders)
@@ -89,9 +87,6 @@ public class PlayerStatus : MonoBehaviour
             Death = true;
             lives--;
             UpdateLivesDisplay();
-
-
-            player_controller.enabled = false;
             playerMoveScript.enabled = false;
             DeathEvent();
         }
@@ -107,7 +102,7 @@ public class PlayerStatus : MonoBehaviour
         else
         {
             // StageSelectorではなくGameOverシーンに遷移するように変更
-            SceneManager.LoadScene("GameOver");
+            SceneLoadManager.instance.LoadScene("GameOver");
         }
     }
 
@@ -223,7 +218,6 @@ public class PlayerStatus : MonoBehaviour
             this.transform.position = Vector3.zero;
         }
         playerMoveScript.enabled = true;
-        player_controller.enabled = true;
         StartCoroutine(HandleInvincibility());
     }
 

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerAnimatorController : MonoBehaviour
 {
+    //プレイヤーのアニメーションを管理するスクリプト
     private PlayerMoveScript playerMoveScript;
     [SerializeField]private GroundCheckScript groundCheckScript;
     private PlayerStatus playerStatus;
@@ -21,7 +22,7 @@ public class PlayerAnimatorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("playerMoveScript.JumpKeyPush: " + playerMoveScript.JumpKeyPush);
+        //アニメーションをセット。
         if (playerMoveScript.JumpKeyPush)
         {
             anim.SetTrigger("Jump");

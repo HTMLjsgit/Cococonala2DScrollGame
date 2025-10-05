@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class GameOverController : MonoBehaviour
 {
     // インスペクターから設定するボタン
-    public Button moveToStageSelectorButton;
+    [SerializeField] private Button moveToStageSelectorButton;
 
     void Start()
     {
@@ -23,7 +23,7 @@ public class GameOverController : MonoBehaviour
     private void MoveToStageSelector()
     {
         // "StageSelector" という名前のシーンをロードする
-        SceneManager.LoadScene("StageSelector");
+        SceneLoadManager.instance.LoadScene("StageSelector");
     }
 
     // オブジェクトが破棄される際に、登録したイベントを解除（推奨）

@@ -7,16 +7,17 @@ using DG.Tweening; // DOTweenを使用するために必要
 public class EnemyStatus : MonoBehaviour
 {
     //ここは敵のステータスを管理する場所
-    public float HP = 100; //HP
-    public float AttackPower; //普通攻撃の攻撃力
-    public AttackColliderScript[] AttackColliders;
+    [SerializeField] private  float HP = 100; //HP
+    [SerializeField] private  float AttackPower; //普通攻撃の攻撃力
+    [SerializeField] private  AttackColliderScript[] AttackColliders;
     [Header("イベント系")]
     public UnityEvent DeathEvent;
     public UnityEvent AttackedEvent;
     public UnityEvent DeathAnimationEndEvent;
-    public bool Death;
-    Animator anim;
-    bool death_once;
+    [SerializeField] private bool Death;
+    private Animator anim;
+    private bool death_once;
+    private EnemyMove enemyMove;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +26,9 @@ public class EnemyStatus : MonoBehaviour
             //AttackColliderScriptのAttackPowerに自分のステータスの攻撃力を代入してあげる。
             attack_col_script.AttackPower = this.AttackPower;
         }
+        enemyMove = this.gameObject.GetComponent<EnemyMove>();
         anim = this.gameObject.GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -48,13 +51,13 @@ public class EnemyStatus : MonoBehaviour
         death_once = true; // 処理を一度だけ実行するためのフラグ
         Death = true;
         DeathEvent.Invoke();
-
+        enemyMove.PermitMove = false;
         // 親以下の全Transformを取ってきて…
         Transform[] allChildren = transform.GetComponentsInChildren<Transform>(true);
 
         foreach (var child in allChildren)
         {
-            // タグが"attackCollider"ならGameObjectを使って何かする
+            // 子についてるattackcolliderを無効にする。
             if (child.CompareTag("AttackCollider"))
             {
                 GameObject attackColliderObj = child.gameObject;

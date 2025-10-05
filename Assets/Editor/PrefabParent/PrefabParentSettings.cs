@@ -5,10 +5,10 @@ using UnityEngine;
 using System.Collections.Generic;
 using System;
 
-// [Serializable] 属性により、このクラスのインスタンスをUnityが保存できるようになる
 [Serializable]
 public class PrefabParentMapEntry
 {
+    // ★変更: 個別の有効フラグを削除
     public string parentName = "New Parent";
     public List<GameObject> prefabs = new List<GameObject>();
 }
@@ -16,7 +16,10 @@ public class PrefabParentMapEntry
 [CreateAssetMenu(fileName = "PrefabParentSettings", menuName = "Editor/Prefab Parent Settings")]
 public class PrefabParentSettings : ScriptableObject
 {
-    // 新しいデータ構造。PrefabParentMapEntry のリストとして設定を保持する
+    // 機能全体を有効化/無効化するためのフラグ
+    [SerializeField]
+    public bool isGloballyEnabled = true;
+
     [SerializeField]
     public List<PrefabParentMapEntry> prefabMappings = new List<PrefabParentMapEntry>();
 }

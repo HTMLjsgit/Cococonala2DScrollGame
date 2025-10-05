@@ -11,24 +11,9 @@ public class EnemyAnimatorController : MonoBehaviour
         anim = this.gameObject.GetComponent<Animator>();
         enemyStatus = this.gameObject.GetComponent<EnemyStatus>();
         enemyMove = this.gameObject.GetComponent<EnemyMove>();
-        enemyStatus.AttackedEvent.AddListener(() =>
-        {
-            if (enemyMove != null)
-            {
-                enemyMove.PermitMove = false;
-            }
-            anim.SetTrigger("Hurt");
-            DOVirtual.DelayedCall(0.3f, () =>
-            {
-                //攻撃を受けたらしばらくの間動けないようにする
-                if (enemyMove != null)
-                {
-                    enemyMove.PermitMove = true;
-                }
-            });
-        });
         enemyStatus.DeathEvent.AddListener(() =>
         {
+            //Enemyが死亡したとき、いったん動きを止めてアニメーションを再生
             anim.SetBool("Death", true);
         });
 

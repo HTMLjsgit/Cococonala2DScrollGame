@@ -10,13 +10,6 @@ public class GroundCheckScript : MonoBehaviour
     public bool Ground_1;
     public bool Ground_2;
     public bool Ground_3;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if(Ground_1 || Ground_2 || Ground_3){

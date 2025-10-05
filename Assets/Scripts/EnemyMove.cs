@@ -6,12 +6,11 @@ using System.Linq;
 public class EnemyMove : MonoBehaviour
 {
     [Header("移動ロジック")]
-    public string[] TargetTurningPointTag; // ぶつかったら迂回するtagたち
-    public float speed;
-    public float DirectionX = 1;
-    Rigidbody2D rigid;
+    [SerializeField] private string[] TargetTurningPointTag; // ぶつかったら迂回するtagたち
+    [SerializeField] private float speed;
+    [SerializeField] private float Direction = 1;
+    [SerializeField] Rigidbody2D rigid;
 
-    [SerializeField]
     private enum MoveVector
     {
         X,
@@ -19,62 +18,51 @@ public class EnemyMove : MonoBehaviour
     };
     [SerializeField] private MoveVector moveVector;
 
-    Vector3 DefaultLocalScale;
     public bool Move = true;
     public bool PermitMove = true;
-    public bool LookAtPlayer = false;
-    EnemyController enemy_controller;
-    GameObject Player;
-
+    private Vector3 DefaultLocalScale;
     void Start()
     {
         rigid = this.gameObject.GetComponent<Rigidbody2D>();
         DefaultLocalScale = this.transform.localScale;
-        enemy_controller = this.gameObject.GetComponent<EnemyController>();
-        Player = GameObject.FindWithTag("Player");
     }
 
     void Update()
     {
-        // ▼▼▼ この中のロジックは一切変更していません ▼▼▼
-        if (!LookAtPlayer)
-        {
-            this.transform.localScale = new Vector2(DefaultLocalScale.x * DirectionX, DefaultLocalScale.y);
-        }
-        else if (LookAtPlayer)
-        {
-            this.transform.localScale = new Vector3(DefaultLocalScale.x * enemy_controller.EnemyToPlayerDirection, DefaultLocalScale.y);
-        }
+        this.transform.localScale = new Vector2(DefaultLocalScale.x * Direction, DefaultLocalScale.y);
         if (Move && PermitMove)
         {
             if (moveVector == MoveVector.X)
             {
-                rigid.linearVelocity = new Vector2(DirectionX * speed, rigid.linearVelocity.y);
+                //横に移動するタイプ
+                rigid.linearVelocity = new Vector2(Direction * speed, rigid.linearVelocity.y);
             }
             else if (moveVector == MoveVector.Y)
             {
-                rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, DirectionX * speed);
+                //縦に移動するタイプ
+                rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, Direction * speed);
             }
         }
         else
         {
+            //!Move or !PermitMoveなら 完全に停止
             rigid.linearVelocity = Vector2.zero;
         }
-        // ▲▲▲ この中のロジックは一切変更していません ▲▲▲
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (TargetTurningPointTag.Contains(other.gameObject.tag))
         {
-            DirectionX *= -1;
+            //TurnPointに触れたら(到着したら)、方向を変更する
+            Direction *= -1;
         }
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (TargetTurningPointTag.Contains(collision.gameObject.tag))
         {
-            DirectionX *= -1;
+            Direction *= -1;
         }
     }
 

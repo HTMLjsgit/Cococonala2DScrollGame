@@ -5,6 +5,7 @@ using UnityEditor;
 [CanEditMultipleObjects]
 public class MoveFloorEditor : Editor
 {
+    //MoveFloorのinspectorを見えやすくするためのスクリプト
     SerializedProperty movementTypeProp;
     SerializedProperty speedProp;
     SerializedProperty directionXProp;
@@ -49,8 +50,6 @@ public class MoveFloorEditor : Editor
                 EditorGUILayout.PropertyField(directionYProp);
                 break;
             
-            // ★★★ 修正点 ★★★
-            // 不要なorbitalSpeedPropの表示を削除
             case MoveFloor.MovementType.Circular:
                 EditorGUILayout.PropertyField(centerPointProp);
                 EditorGUILayout.PropertyField(speedProp, new GUIContent("円運動の速度"));

@@ -24,7 +24,6 @@ public class PrefabParentEditorWindow : EditorWindow
         {
             string path = AssetDatabase.GUIDToAssetPath(guids[0]);
             settings = AssetDatabase.LoadAssetAtPath<PrefabParentSettings>(path);
-            // settingsオブジェクトをシリアライズ化し、UndoやリッチなUI表示に対応
             serializedSettings = new SerializedObject(settings);
         }
         else
@@ -41,13 +40,15 @@ public class PrefabParentEditorWindow : EditorWindow
             return;
         }
 
-        // SerializedObjectの変更を監視
         serializedSettings.Update();
+
+        // グローバル設定のチェックボックス
+        EditorGUILayout.PropertyField(serializedSettings.FindProperty("isGloballyEnabled"), new GUIContent("Enable Auto-Parenting Feature"));
+        EditorGUILayout.Space();
 
         scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
 
-        // "prefabMappings" という名前のプロパティを取得し、リスト全体をUIに描画
-        // 'true' を指定することで、リストの子要素（parentNameやprefabsリスト）も再帰的に描画される
+        // ★変更: シンプルなリスト表示に戻す
         EditorGUILayout.PropertyField(serializedSettings.FindProperty("prefabMappings"), true);
         
         EditorGUILayout.EndScrollView();
@@ -60,24 +61,26 @@ public class PrefabParentEditorWindow : EditorWindow
             OrganizeAllPrefabsInScene();
         }
 
-        // GUIで行われた変更を実際のオブジェクトに適用
         serializedSettings.ApplyModifiedProperties();
     }
 
     private void OrganizeAllPrefabsInScene()
     {
-        if (settings == null || settings.prefabMappings.Count == 0)
+        // グローバル設定が無効な場合はダイアログを表示して中断
+        if (settings == null || !settings.isGloballyEnabled || settings.prefabMappings.Count == 0)
         {
-            EditorUtility.DisplayDialog("Info", "No settings found.", "OK");
+            EditorUtility.DisplayDialog("Info", "Auto-Parenting is disabled or no settings found.", "OK");
             return;
         }
 
         int organizedCount = 0;
         
-        // 設定を検索しやすいように、Prefabをキー、親の名前をバリューにしたDictionaryを作成
         var prefabToParentMap = new Dictionary<GameObject, string>();
         foreach (var mapping in settings.prefabMappings)
         {
+            // ★変更: 個別の有効チェックを削除
+            if (string.IsNullOrEmpty(mapping.parentName)) continue;
+
             foreach (var prefab in mapping.prefabs)
             {
                 if (prefab != null && !prefabToParentMap.ContainsKey(prefab))
@@ -98,8 +101,6 @@ public class PrefabParentEditorWindow : EditorWindow
 
             if (prefabToParentMap.TryGetValue(sourcePrefab, out string parentName))
             {
-                if (string.IsNullOrEmpty(parentName)) continue; // 親の名前が空ならスキップ
-
                 GameObject parentObject = GameObject.Find(parentName);
                 if (parentObject == null)
                 {

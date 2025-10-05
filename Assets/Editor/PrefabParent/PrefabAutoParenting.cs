@@ -11,8 +11,10 @@ public class PrefabAutoParenting
 
     static PrefabAutoParenting()
     {
-        LoadSettings();
-        EditorApplication.hierarchyChanged += OnHierarchyChanged;
+        EditorApplication.delayCall += () => {
+            LoadSettings();
+            EditorApplication.hierarchyChanged += OnHierarchyChanged;
+        };
     }
 
     private static void LoadSettings()
@@ -27,7 +29,8 @@ public class PrefabAutoParenting
     
     private static void OnHierarchyChanged()
     {
-        if (settings == null || settings.prefabMappings.Count == 0) return;
+        // グローバル設定が無効、または設定ファイルがない場合は処理を中断
+        if (settings == null || !settings.isGloballyEnabled || settings.prefabMappings.Count == 0) return;
         
         GameObject activeObject = Selection.activeGameObject;
         if(activeObject == null || activeObject.transform.parent != null) return;
@@ -35,14 +38,13 @@ public class PrefabAutoParenting
         GameObject sourcePrefab = PrefabUtility.GetCorrespondingObjectFromSource(activeObject);
         if (sourcePrefab == null) return;
         
-        // 新しいデータ構造を検索
         foreach (var mapping in settings.prefabMappings)
         {
-            // mapping.prefabs リストに sourcePrefab が含まれているかチェック
+            // ★変更: 個別の有効チェックを削除
             if (mapping.prefabs.Contains(sourcePrefab))
             {
                 string parentName = mapping.parentName;
-                if (string.IsNullOrEmpty(parentName)) continue; // 親の名前が空ならスキップ
+                if (string.IsNullOrEmpty(parentName)) continue;
 
                 GameObject parentObject = GameObject.Find(parentName);
                 
@@ -53,7 +55,7 @@ public class PrefabAutoParenting
                 }
                 
                 Undo.SetTransformParent(activeObject.transform, parentObject.transform, "Auto Parent Prefab");
-                return; // 処理が完了したらループを抜ける
+                return;
             }
         }
     }

@@ -11,32 +11,32 @@ public class MoveFloor : MonoBehaviour
     }
 
     [Header("移動タイプ選択")]
-    [SerializeField] public MovementType movementType = MovementType.Horizontal;
+    [SerializeField] private MovementType movementType = MovementType.Horizontal;
 
     [Header("共通設定")]
     [Tooltip("移動速度（中心の移動や円運動の速さ）")]
-    [SerializeField] public float speed = 2.0f;
+    [SerializeField] private float speed = 2.0f;
 
     // --- 各移動タイプごとの設定 ---
 
     [Header("横・縦移動")]
-    [SerializeField] public int directionX = 1;
-    [SerializeField] public int directionY = 1;
+    [SerializeField] private int directionX = 1;
+    [SerializeField] private int directionY = 1;
 
     [Header("その場での円運動")]
-    [SerializeField] public Transform centerPoint;
+    [SerializeField] private Transform centerPoint;
 
     [Header("円運動・往復円運動")]
     [Tooltip("円運動の半径")]
-    [SerializeField] public float radius = 2.0f;
+    [SerializeField] private float radius = 2.0f;
     [Tooltip("往復円運動時の、円運動（公転）の速度")]
-    [SerializeField] public float orbitalSpeed = 3.0f;
+    [SerializeField] private float orbitalSpeed = 3.0f;
 
     [Header("往復移動")]
     [Tooltip("往復移動の始点")]
-    [SerializeField] public Transform pointA;
+    [SerializeField] private Transform pointA;
     [Tooltip("往復移動の終点")]
-    [SerializeField] public Transform pointB;
+    [SerializeField] private Transform pointB;
 
     // --- 内部計算用 ---
     private float angle = 0f;
@@ -89,8 +89,6 @@ public class MoveFloor : MonoBehaviour
         transform.Translate(Vector2.up * directionY * speed * Time.deltaTime);
     }
 
-    // ★★★ 修正点 ★★★
-    // orbitalSpeedではなく、共通のspeedを使うように変更
     private void MoveCircularly()
     {
         if (centerPoint == null) return;
@@ -116,7 +114,6 @@ public class MoveFloor : MonoBehaviour
         transform.position = new Vector2(x, y);
     }
 
-    // (衝突判定とGizmo表示のコードは変更なしのため省略)
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Turn"))
@@ -141,7 +138,7 @@ public class MoveFloor : MonoBehaviour
             collision.transform.SetParent(null);
         }
     }
-
+    //移動の軌道を表示
     private void OnDrawGizmos()
     {
         if (movementType == MovementType.Circular && centerPoint != null)

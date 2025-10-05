@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6846775668464382608}
   - component: {fileID: 7847162977508234456}
   m_Layer: 0
-  m_Name: HimawariSeeds
+  m_Name: HimawariSeed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

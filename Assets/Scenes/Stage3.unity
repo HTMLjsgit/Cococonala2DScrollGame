@@ -129,7 +129,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (105)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -191,7 +191,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (82)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -253,7 +253,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (21)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -381,7 +381,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (63)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -443,7 +443,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (79)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -494,6 +494,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
   m_PrefabInstance: {fileID: 42809206}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &44199543
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1630044510}
+    m_Modifications:
+    - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_Name
+      value: HimawariSeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 95.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+--- !u!4 &44199544 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+  m_PrefabInstance: {fileID: 44199543}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &46112732
 PrefabInstance:
@@ -567,7 +629,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (67)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -629,7 +691,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (101)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -807,7 +869,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (102)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -869,7 +931,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (61)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -931,7 +993,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (5)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -993,7 +1055,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (113)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1055,7 +1117,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (130)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1219,7 +1281,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (96)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1347,7 +1409,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (80)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1399,6 +1461,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
   m_PrefabInstance: {fileID: 123637801}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &145846167
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1630044510}
+    m_Modifications:
+    - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_Name
+      value: HimawariSeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 97.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+--- !u!4 &145846168 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+  m_PrefabInstance: {fileID: 145846167}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &149076466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1409,7 +1533,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (28)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1471,7 +1595,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (42)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1803,7 +1927,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (3)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1865,7 +1989,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (133)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1927,7 +2051,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (38)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2054,7 +2178,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (119)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2116,7 +2240,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (35)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2193,11 +2317,11 @@ Transform:
   m_GameObject: {fileID: 264154748}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 172.7, y: 4.54, z: 0}
+  m_LocalPosition: {x: 95.399994, y: 6.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1074282539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &269009004
 PrefabInstance:
@@ -2209,7 +2333,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (120)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2271,7 +2395,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (8)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2333,7 +2457,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (121)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2395,7 +2519,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (69)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2559,7 +2683,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (18)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2621,7 +2745,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (30)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2672,6 +2796,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
   m_PrefabInstance: {fileID: 332037888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &350962211
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1630044510}
+    m_Modifications:
+    - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_Name
+      value: HimawariSeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 98.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+--- !u!4 &350962212 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+  m_PrefabInstance: {fileID: 350962211}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &353254376
 PrefabInstance:
@@ -2749,7 +2935,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (131)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2811,7 +2997,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (56)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2939,7 +3125,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (90)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3001,7 +3187,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (33)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3063,7 +3249,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (104)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3125,7 +3311,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (137)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3187,7 +3373,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (13)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3249,7 +3435,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (8)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3311,7 +3497,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (91)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3503,7 +3689,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (124)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3631,7 +3817,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (134)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3759,7 +3945,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (74)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3821,7 +4007,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (94)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3949,7 +4135,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (25)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4077,7 +4263,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (106)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4369,7 +4555,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (66)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4431,7 +4617,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (22)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4493,7 +4679,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (127)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4555,7 +4741,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (83)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4617,7 +4803,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (88)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4679,7 +4865,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4826,11 +5012,11 @@ Transform:
   m_GameObject: {fileID: 546519699}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 180.32, y: -2.82, z: 0}
+  m_LocalPosition: {x: 103.020004, y: -0.6899998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1074282539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &567801321
 PrefabInstance:
@@ -4842,7 +5028,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (123)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4904,7 +5090,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (24)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5032,7 +5218,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (1)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5160,7 +5346,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (75)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5222,7 +5408,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (17)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5360,6 +5546,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: StageController
       objectReference: {fileID: 0}
+    - target: {fileID: 7531069924771844336, guid: 732bcd8b56a2e7c4ca109df15ba1fc6b, type: 3}
+      propertyPath: m_text
+      value: "\u6B21\u306B\u9032\u3080"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708443752793085241, guid: 732bcd8b56a2e7c4ca109df15ba1fc6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8912838206491197096, guid: 732bcd8b56a2e7c4ca109df15ba1fc6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.564349
@@ -5477,7 +5671,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5601,7 +5795,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (81)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5795,7 +5989,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (6)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5857,7 +6051,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (108)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5919,7 +6113,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (16)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5981,7 +6175,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (68)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6109,7 +6303,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (41)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6237,7 +6431,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (57)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6540,11 +6734,11 @@ Transform:
   m_GameObject: {fileID: 802072808}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 164.95, y: -1.84, z: 0}
+  m_LocalPosition: {x: 87.649994, y: 0.29000008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1074282539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &811250022
 PrefabInstance:
@@ -6622,7 +6816,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (10)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6746,7 +6940,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (14)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6808,7 +7002,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (87)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6870,7 +7064,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (118)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7064,7 +7258,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (43)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7228,7 +7422,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (111)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7290,7 +7484,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (116)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7352,7 +7546,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (85)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7632,7 +7826,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (129)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7694,7 +7888,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (60)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7858,7 +8052,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (97)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7920,7 +8114,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (23)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7982,7 +8176,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (3)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8044,7 +8238,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (27)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8208,7 +8402,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (98)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8270,7 +8464,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (109)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8454,6 +8648,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8793735049006839089, guid: d4754418439468148af47528f8222685, type: 3}
   m_PrefabInstance: {fileID: 1020302163}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1033302527
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1630044510}
+    m_Modifications:
+    - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_Name
+      value: HimawariSeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 101.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+--- !u!4 &1033302528 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+  m_PrefabInstance: {fileID: 1033302527}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1048383637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8464,7 +8720,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (48)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8541,11 +8797,11 @@ Transform:
   m_GameObject: {fileID: 1062168973}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 84.97, y: 5.2, z: 0}
+  m_LocalPosition: {x: 7.669998, y: 7.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1074282539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1067882561
 PrefabInstance:
@@ -8623,7 +8879,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (15)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8675,6 +8931,47 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
   m_PrefabInstance: {fileID: 1074045709}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1074282538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1074282539}
+  m_Layer: 0
+  m_Name: Centers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1074282539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074282538}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 77.3, y: -2.13, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1815404238}
+  - {fileID: 1781229174}
+  - {fileID: 1062168974}
+  - {fileID: 1546162692}
+  - {fileID: 1474201090}
+  - {fileID: 802072809}
+  - {fileID: 264154749}
+  - {fileID: 1774216416}
+  - {fileID: 1460098190}
+  - {fileID: 546519700}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1087349225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8751,7 +9048,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (49)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8813,7 +9110,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (54)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8875,7 +9172,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (2)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9039,7 +9336,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (107)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9163,7 +9460,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (9)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9291,7 +9588,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (70)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9419,7 +9716,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (122)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9481,7 +9778,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (4)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9543,7 +9840,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (73)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9605,7 +9902,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (58)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9667,7 +9964,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (5)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9729,7 +10026,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (7)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14738,7 +15035,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (65)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14862,7 +15159,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (16)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14924,7 +15221,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (115)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14986,7 +15283,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (11)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15048,7 +15345,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (92)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15110,7 +15407,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (11)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15172,7 +15469,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (78)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15234,7 +15531,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (76)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15296,7 +15593,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (136)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15358,7 +15655,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (103)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15420,7 +15717,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (71)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15584,7 +15881,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (18)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15646,7 +15943,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (13)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20786,7 +21083,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (7)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20914,7 +21211,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (112)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20976,7 +21273,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (64)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21038,7 +21335,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (31)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21100,7 +21397,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (40)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21162,7 +21459,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (86)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21305,11 +21602,11 @@ Transform:
   m_GameObject: {fileID: 1460098189}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 190.89, y: -1.68, z: 0}
+  m_LocalPosition: {x: 113.59, y: 0.45000017, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1074282539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1460103425 stripped
 GameObject:
@@ -21326,7 +21623,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (59)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21388,7 +21685,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (39)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21465,11 +21762,11 @@ Transform:
   m_GameObject: {fileID: 1474201089}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 169.12, y: 0.22, z: 0}
+  m_LocalPosition: {x: 91.81999, y: 2.3500001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1074282539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1474420857
 PrefabInstance:
@@ -21547,7 +21844,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (126)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21609,7 +21906,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (50)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21671,7 +21968,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (29)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21733,7 +22030,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (84)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21897,7 +22194,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (47)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21959,7 +22256,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22083,7 +22380,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (110)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22145,7 +22442,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (135)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22207,7 +22504,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (12)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22337,11 +22634,11 @@ Transform:
   m_GameObject: {fileID: 1546162691}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 90, y: 0.08, z: 0}
+  m_LocalPosition: {x: 12.699997, y: 2.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1074282539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1548306937
 PrefabInstance:
@@ -22483,7 +22780,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (9)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22545,7 +22842,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (44)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22607,7 +22904,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (125)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22669,7 +22966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1630044510}
   m_Layer: 0
-  m_Name: HimawariSeedsObjects
+  m_Name: HimawariSeeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22716,6 +23013,11 @@ Transform:
   - {fileID: 1299233454}
   - {fileID: 1923837623}
   - {fileID: 1348782117}
+  - {fileID: 44199544}
+  - {fileID: 145846168}
+  - {fileID: 350962212}
+  - {fileID: 1967854408}
+  - {fileID: 1033302528}
   - {fileID: 700095632}
   - {fileID: 35110513}
   - {fileID: 522692944}
@@ -22859,7 +23161,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (6)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23023,7 +23325,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (14)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23085,7 +23387,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (117)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23213,7 +23515,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (32)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23275,7 +23577,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (36)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23337,7 +23639,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (99)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23399,7 +23701,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (10)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23507,7 +23809,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (100)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23584,11 +23886,11 @@ Transform:
   m_GameObject: {fileID: 1774216415}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 172.75, y: -4.1, z: 0}
+  m_LocalPosition: {x: 95.45, y: -1.9699998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1074282539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1774825931
 PrefabInstance:
@@ -23600,7 +23902,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (45)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23662,7 +23964,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (4)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23724,7 +24026,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (95)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23786,7 +24088,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (20)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23863,11 +24165,11 @@ Transform:
   m_GameObject: {fileID: 1781229173}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 82.94, y: 0.11, z: 0}
+  m_LocalPosition: {x: 5.6399994, y: 2.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1074282539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1810631589
 PrefabInstance:
@@ -23877,6 +24179,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 329055735949124970, guid: 7a93bb329273c87468bc53a19f7e65c3, type: 3}
+      propertyPath: m_Name
+      value: HimawariSeed
+      objectReference: {fileID: 0}
     - target: {fileID: 2222313269283086826, guid: 7a93bb329273c87468bc53a19f7e65c3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -23892,6 +24198,10 @@ PrefabInstance:
     - target: {fileID: 2361495248181938328, guid: 7a93bb329273c87468bc53a19f7e65c3, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3661929275089257506, guid: 7a93bb329273c87468bc53a19f7e65c3, type: 3}
+      propertyPath: m_Name
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6063870079230042909, guid: 7a93bb329273c87468bc53a19f7e65c3, type: 3}
       propertyPath: m_Name
@@ -23971,11 +24281,11 @@ Transform:
   m_GameObject: {fileID: 1815404237}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 77.3, y: -2.13, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1074282539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1825571291
 PrefabInstance:
@@ -23987,7 +24297,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (1)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24049,7 +24359,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (51)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24111,7 +24421,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (114)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24173,7 +24483,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (128)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24403,7 +24713,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (52)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24597,7 +24907,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24659,7 +24969,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (34)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24782,7 +25092,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (12)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24844,7 +25154,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (93)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24906,7 +25216,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (53)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24968,7 +25278,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (15)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25092,7 +25402,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (37)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25154,7 +25464,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (72)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25205,6 +25515,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
   m_PrefabInstance: {fileID: 1963485881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1967854407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1630044510}
+    m_Modifications:
+    - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_Name
+      value: HimawariSeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 100.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+--- !u!4 &1967854408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
+  m_PrefabInstance: {fileID: 1967854407}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1984866867
 PrefabInstance:
@@ -25282,7 +25654,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (19)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25344,7 +25716,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (132)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25406,7 +25778,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (26)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25716,7 +26088,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (62)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25778,7 +26150,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (55)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25840,7 +26212,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (46)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25902,7 +26274,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (17)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25964,7 +26336,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (89)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26026,7 +26398,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: MediumAmountCoin (2)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26273,7 +26645,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 566823194475626782, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_Name
-      value: HimawariSeeds (77)
+      value: HimawariSeed
       objectReference: {fileID: 0}
     - target: {fileID: 6972617295803620901, guid: 9e516e3ffbd015446a94a824fbbeb0a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26443,15 +26815,6 @@ SceneRoots:
   - {fileID: 1630044510}
   - {fileID: 1395491324}
   - {fileID: 1545725243}
-  - {fileID: 1815404238}
-  - {fileID: 1781229174}
-  - {fileID: 1062168974}
-  - {fileID: 1546162692}
-  - {fileID: 1474201090}
-  - {fileID: 802072809}
-  - {fileID: 264154749}
-  - {fileID: 1774216416}
-  - {fileID: 1460098190}
-  - {fileID: 546519700}
+  - {fileID: 1074282539}
   - {fileID: 67221733}
   - {fileID: 2115675542}
